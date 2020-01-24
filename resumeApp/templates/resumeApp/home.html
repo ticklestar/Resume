@@ -1,0 +1,693 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Akshata Kulkarni</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+     html { scroll-behavior: smooth; } 
+    .parallax{
+      background-image: url("{% static 'qq.jpg' %}");
+
+  /* Set a specific height */
+      height: 603px; 
+
+  /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 35%;
+  padding: 7px;
+  margin-top: 210px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+#col1{
+  padding-right: 0px;
+}
+#col2{
+  padding-left: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:black ;
+  text-align: center;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px 2px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-github{
+  background: black;
+  color: white;
+}
+
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar fixed-top bg-light navbar-light p-3 ">
+  <!-- Brand/logo -->
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#home">Akshata Kulkarni</a>
+  </div>
+  <!-- Links -->
+  <ul class=" nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link" href="#experience">Experience</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#education">Education</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#skills">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact_me">Contact</a>
+    </li>
+  </ul>
+</nav>
+<!--image-->
+<div class="parallax" id="home" >
+  <div class="row  col-sm-auto justify-content-center ">
+    <div class="column" id="col1">
+      <div class="card">
+        <img class="card-img" src="{% static 'aa.jpg' %}" alt="my_image">
+      </div>
+    </div>
+  
+    <div class="column" id="col2">
+      <div class="card">
+        <div class="c1inlineContent" id="inlineContent"><style>
+    
+          #inlineContent {
+            background-color:#E8E8E8;
+              height: 385px;
+              width: 513px;
+              position: relative;
+          }
+          
+          #inlineContent-gridContainer {
+             
+              position: static;
+              display: grid;
+              height: 300px;
+              width: 30%;
+              min-height: 470px;
+              grid-template-rows: 1fr;
+              grid-template-columns: 100%;
+          }
+          
+          #comp-isylxd3r {
+              
+              position: relative;
+              margin: 20px 0px 10px 0;
+              left: 83px;
+              grid-area: 1 / 1 / 2 / 2;
+              justify-self: start;
+              align-self: start;
+          }
+          </style>
+          <div id="inlineContent-gridWrapper" data-mesh-internal="true">
+            <div id="inlineContent-gridContainer" data-mesh-internal="true">
+              <div data-packed="true" style="width: 304px; pointer-events: none;" class="txtNew" id="comp-isylxd3r">
+                <h1 class="font_4"><span class="color_19">Akshata Kulkarni</span></h1><br/>
+          
+              
+          
+                <h6 class="font_6" style="line-height:1.3em;"><span class="color_19"><span style="letter-spacing:0.05em;">Phone:</span></span></h6>
+                <p class="font_8" style="line-height:1.3em;"><span class="color_19"><span style="letter-spacing:0.05em;">+91 9967921479</span></span></p>
+                <br />
+                <h6 class="font_6" style="line-height:1.3em;"><span class="color_19"><span style="letter-spacing:0.05em;">Email:</span></span></h6>
+                <p class="font_8" style="line-height:1.3em;"><span class="color_19"><span style="letter-spacing:0.05em;"><a   data-auto-recognition="true"  href="mailto:akskulkarni25@gmail.com" data-type="mail">akskulkarni25@gmail.com</a></span></span></p>
+                <br />
+                <h6 class="font_6" style="line-height:1.3em;"><span class="color_19"><span style="letter-spacing:0.05em;">Date of Birth:</span></span></h6>
+                <p class="font_8" style="line-height:1.3em;"><span class="color_19"><span style="letter-spacing:0.05em;">April 25th, 1999</span></span></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--description-->
+<div style="margin-bottom:5px;">
+    <div class="c3inlineContent" id="Content">
+      <style id="comp-irlsj9dd-mesh-styles">
+        
+        #Content {
+            height: auto;
+            width: 100%;
+            position: relative;
+        }
+        #gridContainer {
+            position: static;
+            display: grid;
+            height: auto;
+            width: 100%;
+            min-height: auto;
+        }
+        #desc {
+        
+            margin: 70px 0px 30px 0;
+            justify-self: center;
+            align-self: center;
+        }
+      </style>
+      <div  data-mesh-internal="true">
+        <div id="gridContainer" data-mesh-internal="true">
+          <div data-is-responsive="true" style="width:1000px;height:24px;"  class="lb1" id="desc">
+            <div style="width:1000px; " class="txtNew" id="paratitle">
+              <h4 class="font_4" style="text-align:center;">
+                <span class="color_19">Hello! I'm&nbsp;Akshata</span>
+              </h4>
+            </div>
+            <p class="font_9" style="line-height:1.6em; text-align:center;">
+              <span class="color_19"><q>The only way to do great work is to love what you do</q></span><br /><small> -Steve Jobs</small><br/><span> This quote keeps
+                me going and lets me be the best version of myself. Hello I am Akshata Kulkarni with a little experience in backend web development
+                and looking forward for all new opportunities. </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!--experience-->
+  <div style="background:#E8E8E8;" id="experience">
+    <div style="width:100%;position:relative;" class="strc1inlineContent" id="25inlineContent">
+      <style>
+          
+        #25inlineContent {
+            height: auto;
+            width: 100%;
+            position: relative;
+            background-color:#E8E8E8;
+        }
+        #25inlineContent-gridContainer {
+            position: static;
+            height: auto;
+            width: 100%;
+        }
+        #exp {
+            position: relative;
+            margin: 230px 0px 38px calc((100% - 980px) * 0.5);
+            left: 190px;
+            justify-self: start;
+            align-self: start;
+        }
+        </style>
+        <div id="25inlineContent-gridWrapper" data-mesh-internal="true">
+          <div id="25inlineContent-gridContainer" data-mesh-internal="true">
+            <div data-packed="true" style="width: 600px; pointer-events: none;" class="txtNew" id="exp">
+              <h5 class="font_5 pt-5" style="text-align:center;">
+                <span style="letter-spacing:0.2em;">EXPERIENCE</span>
+              </h5>
+              <!--experience description-->
+              <div style="width:100%;position:relative;top:0;bottom:0;background-color:#E8E8E8;" class="strc1inlineContent" id="yinlineContent">
+                <style >
+        
+                  #yinlineContent {
+                      height: auto;
+                      width: 100%;
+                      
+                  }
+                  #yinlineContent-gridContainer {
+                      position: static;
+                      display: grid;
+                      height: auto;
+                      width: 100%;
+                      grid-template-rows: min-content min-content min-content min-content min-content 1fr;
+                      grid-template-columns: 100%;
+                  }
+                  #comp-irus1avq {
+                    
+                      margin: 52px 0px 10px calc((100% - 980px) * 0.5);
+                      left: 0px;
+                      grid-area: 1 / 1 / 3 / 2;
+                      justify-self: start;
+                      align-self: start;
+                  }
+                  #comp-irus1avi {
+                      position: relative;
+                      margin: 52px 0px 37px calc((100% - 980px) * 0.5);
+                      left: 545px;
+                      grid-area: 1 / 1 / 4 / 2;
+                      justify-self: start;
+                      align-self: start;
+                  }
+                </style>
+                  <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                    <div id="yinlineContent-gridContainer" data-mesh-internal="true" style="margin-top: 20px;">
+                      <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avq">
+                        <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">Mar 2019 </span></h6>
+                          <p class="font_8" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.2em;">Social Media Marketing</span></p>
+                      </div>
+                    
+                      
+                      <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avi">
+                        <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Redwhale Wireless
+                          Private Limited</span></p>
+                        <p class="font_8" style="line-height:1.8em;"><span style="line-height:1.8em;">I was working as student partner with Redwhale Wireless
+                           Private Limited from frapp for promoting a
+                           bestseller book named “Before You Start Up” by Pankaj Goyal. </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                      <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                        <div id="yinlineContent-gridContainer" data-mesh-internal="true" style="margin-top: 0px;">
+                          <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avq">
+                            <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">Feb 2019 - Mar 2019</span></h6>
+                              <p class="font_8" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.2em;"></span></p>
+                          </div>
+                        
+                          
+                          <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avi">
+                            <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Project</span></p>
+                            <p class="font_8" style="line-height:1.8em;"><span style="line-height:1.8em;">A creative food ordering app developed in java, Android Studio. 
+                              Using Firebase at the backend to complete it.
+                               It’s a mini version of Zomato. </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                          <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                            <div id="yinlineContent-gridContainer" data-mesh-internal="true" style="margin-top:0px;">
+                              <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avq">
+                                <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">Aug -Nov 2018 </span></h6>
+                                  <p class="font_8" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.2em;"></span></p>
+                              </div>
+                            
+                              
+                              <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avi">
+                                <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Travelista </span></p>
+                                <p class="font_8" style="line-height:1.8em;"><span style="line-height:1.8em;"> a website every traveller needs Webapp project that lets traveller
+                                   book their trips and hotels. </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+              
+              </div>
+              <!--ends here-->
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!--EDUCATION-->
+  <div id="education">
+  <div style="width:100%;position:relative;" class="strc1inlineContent" id="25inlineContent">
+    <style>
+        
+      #25inlineContent {
+          height: auto;
+          width: 100%;
+          position: relative;
+        
+      }
+      #25inlineContent-gridContainer {
+          position: static;
+          height: auto;
+          width: 100%;
+      }
+      #exp11 {
+          position: relative;
+          margin: 10px 0px 10px calc((100% - 980px) * 0.5);
+          left: 190px;
+          justify-self: start;
+          align-self: start;
+      }
+      </style>
+      <div id="25inlineContent-gridWrapper" data-mesh-internal="true">
+        <div id="25inlineContent-gridContainer" data-mesh-internal="true">
+          <div data-packed="true" style="width: 600px; pointer-events: none;" class="txtNew" id="exp11">
+            <h5 class="font_5" style="text-align:center;">
+              <span style="letter-spacing:0.2em;">EDUCATION</span>
+            </h5>
+            <!--experience description-->
+            <div style="width:100%;position:relative;top:0;bottom:0;" class="strc1inlineContent" id="yinlineContent">
+              <style >
+      
+                #yinlineContent {
+                    height: auto;
+                    width: 100%;
+                    
+                }
+                #yinlineContent-gridContainer {
+                    position: static;
+                    display: grid;
+                    height: auto;
+                    width: 100%;
+                    grid-template-rows: min-content min-content min-content min-content min-content 1fr;
+                    grid-template-columns: 100%;
+                }
+                #comp-irus1avq {
+                  
+                    margin: 52px 0px 10px calc((100% - 980px) * 0.5);
+                    left: 0px;
+                    grid-area: 1 / 1 / 3 / 2;
+                    justify-self: start;
+                    align-self: start;
+                }
+                #comp-irus1avi {
+                    position: relative;
+                    margin: 52px 0px 37px calc((100% - 980px) * 0.5);
+                    left: 545px;
+                    grid-area: 1 / 1 / 4 / 2;
+                    justify-self: start;
+                    align-self: start;
+                }
+              </style>
+                <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                  <div id="yinlineContent-gridContainer" data-mesh-internal="true" style="margin-top: 20px;">
+                    <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avq">
+                      <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">2017 </span></h6>
+                        <p class="font_8" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.2em;"></span></p>
+                    </div>
+                  
+                    
+                    <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avi">
+                      <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">KLS Gogte Institute of Technology </span></p>
+                      <p class="font_8" style="line-height:1.8em;"><span style="line-height:1.8em;"> B.E in Computer Science  Average CGPA of 1st,2nd, 3rd,4th and 5th semester is 9.45(currently in 6th semester)  </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                    <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                      <div id="yinlineContent-gridContainer" data-mesh-internal="true" style="margin-top: 0px;">
+                        <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avq">
+                          <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">2015-2017 </span></h6>
+                            <p class="font_8" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.2em;"></span></p>
+                        </div>
+                      
+                        
+                        <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avi">
+                          <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Ryan International School, Sanpada, Mumbai </span></p>
+                          <p class="font_8" style="line-height:1.8em;"><span style="line-height:1.8em;">Secured 87% in 12th (CBSE)  </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                        <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                          <div id="yinlineContent-gridContainer" data-mesh-internal="true" style="margin-top:0px;">
+                            <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avq">
+                              <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">2012-2015  </span></h6>
+                                <p class="font_8" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.2em;"></span></p>
+                            </div>
+                          
+                            
+                            <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avi">
+                              <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">New Horizon Public School, Airoli, Mumbai  </span></p>
+                              <p class="font_8" style="line-height:1.8em;"><span style="line-height:1.8em;"> Secured 10 CGPA in 10th  
+                                 </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+            
+            </div>
+            <!--ends here-->
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!--SKILLS-->
+<div id="skills">
+<div style="background:#E8E8E8;" id="experience">
+  <div style="width:100%;position:relative;" class="strc1inlineContent" id="25inlineContent">
+    <style>
+        
+      #25inlineContent {
+          height: auto;
+          width: 100%;
+          position: relative;
+          background-color:#E8E8E8;
+      }
+      #25inlineContent-gridContainer {
+          position: static;
+          height: auto;
+          width: 100%;
+      }
+      #exp3 {
+          position: relative;
+          margin: 70px 0px 38px calc((100% - 980px) * 0.5);
+          left: 190px;
+          justify-self: start;
+          align-self: start;
+      }
+      </style>
+      <div id="25inlineContent-gridWrapper" data-mesh-internal="true">
+        <div id="25inlineContent-gridContainer" data-mesh-internal="true">
+          <div data-packed="true" style="width: 600px; pointer-events: none;" class="txtNew" id="exp3">
+            <h5 class="font_5 pt-5" style="text-align:center;">
+              <span style="letter-spacing:0.2em;">SKILLS</span>
+            </h5>
+            <!--experience description-->
+            <div style="width:100%;position:relative;top:0;bottom:0;background-color:#E8E8E8;" class="strc1inlineContent" id="yinlineContent">
+              <style >
+      
+                #yinlineContent {
+                    height: auto;
+                    width: 100%;
+                    
+                }
+                #yinlineContent-gridContainer {
+                    position: static;
+                    display: grid;
+                    height: auto;
+                    width: 100%;
+                    grid-template-rows: min-content min-content min-content min-content min-content 1fr;
+                    grid-template-columns: 100%;
+                }
+                #comp-irus1avq {
+                  
+                    margin: 52px 0px 10px calc((100% - 980px) * 0.5);
+                    left: 0px;
+                    grid-area: 1 / 1 / 3 / 2;
+                    justify-self: start;
+                    align-self: start;
+                }
+                #comp-irus1avi {
+                    position: relative;
+                    margin: 52px 0px 37px calc((100% - 980px) * 0.5);
+                    left: 545px;
+                    grid-area: 1 / 1 / 4 / 2;
+                    justify-self: start;
+                    align-self: start;
+                }
+                #comp-irus1avy {
+                  
+                  margin: 10px 0px 10px calc((100% - 980px) * 0.5);
+                  left: 0px;
+                  grid-area: 1 / 1 / 3 / 2;
+                  justify-self: start;
+                  align-self: start;
+                }
+                #comp-irus1avii {
+                    position: relative;
+                    margin: 10px 0px 37px calc((100% - 980px) * 0.5);
+                    left: 545px;
+                    grid-area: 1 / 1 / 4 / 2;
+                    justify-self: start;
+                    align-self: start;
+                }
+              </style>
+                <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                  <div id="yinlineContent-gridContainer" data-mesh-internal="true" style="margin-top: 20px;">
+                    <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avq">
+                      <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">Python </span></h6>
+                        
+                    </div>
+                  
+                    
+                    <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avi">
+                      <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Intermediate
+                        </span></p>
+                      
+                    </div>
+                  </div>
+                </div>
+
+                    <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                      <div id="yinlineContent-gridContainer" data-mesh-internal="true">
+                        <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avy">
+                          <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">Django</span></h6>
+                           
+                        </div>
+                      
+                        
+                        <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avii">
+                          <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Intermediate</span></p>
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                        <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                          <div id="yinlineContent-gridContainer" data-mesh-internal="true">
+                            <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avy">
+                              <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">C , C++ programming </span></h6>
+                               
+                            </div>
+                          
+                            
+                            <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avii">
+                              <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Proficient</span></p>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div id="yinlineContent-gridWrapper" data-mesh-internal="true">
+                          <div id="yinlineContent-gridContainer" data-mesh-internal="true">
+                            <div data-packed="true" style="width: 435px;  visibility: inherit;" class="txtNew" id="comp-irus1avy">
+                              <h6 class="font_6" style="line-height:1.8em; text-align:right;"><span style="letter-spacing:0.25em;">Android App Development </span></h6>
+                              
+                            </div>
+                          
+                            
+                            <div data-packed="true" style="width: 416px;  visibility: inherit;" class="txtNew" id="comp-irus1avii">
+                              <p class="font_8" style="line-height:1.8em;"><span style="letter-spacing:0.2em;">Intermediate</span></p>
+                              
+                            </div>
+                          </div>
+                        </div>
+            
+            
+            </div>
+            <!--ends here-->
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<!--CONTACT ME-->
+<div id="contact_me">
+  <div style="width:100%;position:relative;" class="strc1inlineContent" id="25inlineContent">
+    <style>
+        
+      #25inlineContent {
+          height: auto;
+          width: 100%;
+          position: relative;
+        
+      }
+      #25inlineContent-gridContainer {
+          position: static;
+          height: auto;
+          width: 100%;
+      }
+      #exp111 {
+          position: relative;
+          margin: 10px 0px 80px calc((100% - 980px) * 0.5);
+          left: 190px;
+          justify-self: start;
+          align-self: start;
+      }
+      </style>
+      <div id="25inlineContent-gridWrapper" data-mesh-internal="true">
+        <div id="25inlineContent-gridContainer" data-mesh-internal="true">
+          <div data-packed="true" style="width: 600px; pointer-events: none;" class="txtNew" id="exp111">
+            <h5 class="font_5" style="text-align:center;">
+              <span style="letter-spacing:0.2em;">CONTACT ME</span>
+            </h5>
+            <div class="inline" style="align-items: center; margin-left: 141px;">
+              <a href="https://www.facebook.com/akshata.kulkarni.7773" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/Ticklestar07" class="fa fa-twitter"></a>
+              <a href="akskulkarni25@gmail.com" class="fa fa-google"></a>
+              <a href="https://www.linkedin.com/in/akshata-kulkarni-618047185/" class="fa fa-linkedin"></a>
+              <a href="https://github.com/ticklestar" class="fa fa-github" aria-hidden="true"></a>
+              
+              <a href="https://www.instagram.com/akshata.anil.kulkarni/" class="fa fa-instagram"></a>
+            </div>
+           
+            <!--ends here-->
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!--footer-->
+<div class="footer">
+  <p>© by Akshata Kulkarni.Made with <span style="font-size:150%;color:red;">&hearts;</span>
+</p>
+
+</div>
+
+
+</body>
+</html>
